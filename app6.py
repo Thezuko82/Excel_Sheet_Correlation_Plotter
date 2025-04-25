@@ -14,7 +14,7 @@ file_option = st.sidebar.radio("📂 Choose Excel File Source", ["Use Built-in F
 excel_file = None
 
 if file_option == "Use Built-in File":
-    default_file = "your_file.xlsx"  # 📝 Replace with actual file name
+    default_file = "Data.xlsx"  # 📝 Replace with actual file name
     if os.path.exists(default_file):
         excel_file = default_file
         st.sidebar.success(f"✅ Using built-in file: {default_file}")
