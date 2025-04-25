@@ -8,7 +8,7 @@ st.set_page_config(page_title="Excel Sheet Correlation Plotter", layout="wide")
 st.title("📊 Multi-Sheet Excel Visualizer")
 
 # Path to the Excel file already in the directory
-excel_file = ""Data - Copy.xlsx""  # 🔁 Replace this with your file name
+excel_file = ""Data.xlsx""  # 🔁 Replace this with your file name
 
 # Check file existence
 if not os.path.exists(excel_file):
