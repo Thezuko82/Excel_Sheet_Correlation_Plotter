@@ -9,7 +9,7 @@ st.set_page_config(page_title="GitHub Excel Visualizer", layout="wide")
 st.title("📊 Excel File Plotter from GitHub URL")
 
 # 📌 GitHub raw URL to the Excel file (change this to your actual GitHub file)
-GITHUB_EXCEL_URL = "Data.xlsx"
+GITHUB_EXCEL_URL = "https://github.com/Thezuko82/Excel_Sheet_Correlation_Plotter/blob/main/Data.xlsx"
 
 st.sidebar.markdown("🔗 **Using Excel file from GitHub repository**")
 st.sidebar.code(GITHUB_EXCEL_URL)
